@@ -62,6 +62,71 @@
       "Running tests"
     ],
     "answerIndex": 1,
-    "explanation": "Branches allow developers to work on features independently."
+    "explanation": "Branches allow developers to work on features independently. "
+  },
+  {
+    "id": "Q6",
+    "topic": "Continuous Integration",
+    "question": "What is Continuous Integration (CI)?",
+    "options": [
+      "Automatically deploying to production",
+      "Frequently integrating code into a shared repository",
+      "Writing code without testing",
+      "Replacing version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI focuses on frequently integrating and testing code changes."
+  },
+  {
+    "id": "Q7",
+    "topic": "Continuous Integration",
+    "question": "Which activity is commonly part of CI?",
+    "options": [
+      "Manual deployment",
+      "Automated builds and tests",
+      "Disabling testing",
+      "Ignoring merge conflicts"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI typically includes automated builds and testing."
+  },
+  {
+    "id": "Q8",
+    "topic": "Continuous Integration",
+    "question": "Why is CI important?",
+    "options": [
+      "It delays integration",
+      "It detects integration issues early",
+      "It removes the need for developers",
+      "It avoids code reviews"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI helps detect issues early by integrating code frequently."
+  },
+  {
+    "id": "Q9",
+    "topic": "Continuous Delivery",
+    "question": "What does Continuous Delivery ensure?",
+    "options": [
+      "Code is always ready for deployment",
+      "Code is never tested",
+      "Deployments are manual only",
+      "Production is never updated"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery ensures software can be deployed at any time."
+  },
+  {
+    "id": "Q10",
+    "topic": "Continuous Delivery",
+    "question": "What is the main difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "Delivery requires manual approval before deployment",
+      "Deployment skips testing",
+      "Delivery avoids automation",
+      "There is no difference"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery may require manual approval before deploying to production."
   }
 ]
