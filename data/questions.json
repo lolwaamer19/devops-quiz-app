@@ -1,0 +1,264 @@
+[
+      {
+    "id": "Q1",
+    "topic": "DevOps Culture",
+    "question": "What is the main goal of DevOps?",
+    "options": [
+      "Separate development and operations teams",
+      "Increase collaboration between development and operations",
+      "Eliminate the need for testing",
+      "Replace developers with automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps focuses on improving collaboration and communication between development and operations teams."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which practice best supports a DevOps culture?",
+    "options": [
+      "Working in isolated teams",
+      "Blaming individuals for failures",
+      "Continuous feedback and improvement",
+      "Avoiding automation"
+    ],
+    "answerIndex": 2,
+    "explanation": "Continuous feedback encourages learning and improvement, which is a key DevOps principle."
+  },
+  {
+    "id": "Q3",
+    "topic": "Version Control Systems",
+    "question": "What is the primary purpose of version control systems?",
+    "options": [
+      "Deploy applications to production",
+      "Track and manage code changes",
+      "Monitor server performance",
+      "Automate testing only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Version control systems help track changes and manage code history."
+  },
+  {
+    "id": "Q4",
+    "topic": "Version Control Systems",
+    "question": "Which command is used to upload local commits to a remote repository in Git?",
+    "options": [
+      "git pull",
+      "git clone",
+      "git push",
+      "git fetch"
+    ],
+    "answerIndex": 2,
+    "explanation": "git push sends local commits to the remote repository."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What is a Git branch mainly used for?",
+    "options": [
+      "Deleting code",
+      "Parallel development",
+      "Backing up databases",
+      "Running tests"
+    ],
+    "answerIndex": 1,
+    "explanation": "Branches allow developers to work on features independently. "
+  },
+  {
+    "id": "Q6",
+    "topic": "Continuous Integration",
+    "question": "What is Continuous Integration (CI)?",
+    "options": [
+      "Automatically deploying to production",
+      "Frequently integrating code into a shared repository",
+      "Writing code without testing",
+      "Replacing version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI focuses on frequently integrating and testing code changes."
+  },
+  {
+    "id": "Q7",
+    "topic": "Continuous Integration",
+    "question": "Which activity is commonly part of CI?",
+    "options": [
+      "Manual deployment",
+      "Automated builds and tests",
+      "Disabling testing",
+      "Ignoring merge conflicts"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI typically includes automated builds and testing."
+  },
+  {
+    "id": "Q8",
+    "topic": "Continuous Integration",
+    "question": "Why is CI important?",
+    "options": [
+      "It delays integration",
+      "It detects integration issues early",
+      "It removes the need for developers",
+      "It avoids code reviews"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI helps detect issues early by integrating code frequently."
+  },
+  {
+    "id": "Q9",
+    "topic": "Continuous Delivery",
+    "question": "What does Continuous Delivery ensure?",
+    "options": [
+      "Code is always ready for deployment",
+      "Code is never tested",
+      "Deployments are manual only",
+      "Production is never updated"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery ensures software can be deployed at any time."
+  },
+  {
+    "id": "Q10",
+    "topic": "Continuous Delivery",
+    "question": "What is the main difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "Delivery requires manual approval before deployment",
+      "Deployment skips testing",
+      "Delivery avoids automation",
+      "There is no difference"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery may require manual approval before deploying to production."
+  },
+  ,
+  {
+    "id": "Q11",
+    "topic": "Continuous Deployment",
+    "question": "What happens in Continuous Deployment?",
+    "options": [
+      "Code is deployed manually",
+      "Every change is automatically deployed to production",
+      "Testing is skipped",
+      "Only monthly releases are allowed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys every successful change."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Deployment",
+    "question": "Which condition is required for Continuous Deployment?",
+    "options": [
+      "Reliable automated testing",
+      "No version control",
+      "Manual builds",
+      "Rare code changes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Strong automated testing is essential for Continuous Deployment."
+  },
+  {
+    "id": "Q13",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Managing infrastructure using manual processes",
+      "Defining infrastructure using code and configuration files",
+      "Avoiding automation",
+      "Only managing servers manually"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC uses code to manage and provision infrastructure."
+  },
+  {
+    "id": "Q14",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is commonly used for Infrastructure as Code?",
+    "options": [
+      "Terraform",
+      "Photoshop",
+      "Excel",
+      "Notepad"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a popular Infrastructure as Code tool."
+  },
+  {
+    "id": "Q15",
+    "topic": "Infrastructure as Code",
+    "question": "What is a benefit of using Infrastructure as Code?",
+    "options": [
+      "More manual work",
+      "Inconsistent environments",
+      "Repeatable and consistent infrastructure",
+      "Slower deployments"
+    ],
+    "answerIndex": 2,
+    "explanation": "IaC ensures consistent and repeatable infrastructure setups."
+  },
+  {
+    "id": "Q16",
+    "topic": "Plan with DevOps",
+    "question": "Why is planning important in DevOps?",
+    "options": [
+      "To avoid collaboration",
+      "To align development and operations goals",
+      "To remove automation",
+      "To delay releases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Planning helps align teams and streamline delivery."
+  },
+  {
+    "id": "Q17",
+    "topic": "Plan with DevOps",
+    "question": "Which practice helps plan work in DevOps?",
+    "options": [
+      "Ignoring feedback",
+      "Using backlogs and sprint planning",
+      "Avoiding documentation",
+      "Working without goals"
+    ],
+    "answerIndex": 1,
+    "explanation": "Backlogs and sprint planning support effective DevOps planning."
+  },
+  {
+    "id": "Q18",
+    "topic": "DevOps Culture",
+    "question": "What does shared responsibility mean in DevOps?",
+    "options": [
+      "Only operations are responsible",
+      "Only developers are responsible",
+      "Both teams share responsibility for success",
+      "No one is responsible"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps promotes shared responsibility across teams."
+  },
+  {
+    "id": "Q19",
+    "topic": "Version Control Systems",
+    "question": "What is a pull request used for?",
+    "options": [
+      "Deleting branches",
+      "Requesting code review and merging changes",
+      "Running applications",
+      "Installing software"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull requests are used to review and merge code changes."
+  },
+  {
+    "id": "Q20",
+    "topic": "Continuous Integration",
+    "question": "How often should developers integrate their code in CI?",
+    "options": [
+      "Once a year",
+      "Only at release time",
+      "Frequently",
+      "Never"
+    ],
+    "answerIndex": 2,
+    "explanation": "Frequent integration helps catch issues early."
+  }
+
+]
