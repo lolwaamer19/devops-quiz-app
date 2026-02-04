@@ -20,6 +20,11 @@ function resetFeedback() {
   explanationEl.textContent = "";
 }
 
+function getSelectedIndex() {
+  const checked = optionsForm.querySelector('input[name="answer"]:checked');
+  return checked ? Number(checked.value) : null;
+}
+
 function renderTopics(topics) {
   topicSelect.innerHTML = `<option value="">-- Select a topic --</option>`;
   for (const t of topics) {
@@ -82,6 +87,21 @@ topicSelect.addEventListener("change", () => {
   pickFirstQuestion();
 });
 
+submitBtn.addEventListener("click", () => {
+  const selected = getSelectedIndex();
+  if (selected === null) return;
+
+  const correct = currentQuestion.answerIndex;
+  const isCorrect = selected === correct;
+
+  feedbackEl.textContent = isCorrect ? "Correct ✅" : "Incorrect ❌";
+  explanationEl.textContent = `Explanation: ${currentQuestion.explanation}`;
+
+  // lock selection after submit
+  optionsForm.querySelectorAll('input[name="answer"]').forEach(r => (r.disabled = true));
+  submitBtn.disabled = true;
+});
+
 async function loadQuestions() {
   try {
     statusEl.textContent = "Loading questions...";
@@ -100,4 +120,5 @@ async function loadQuestions() {
 }
 
 loadQuestions();
+
 
