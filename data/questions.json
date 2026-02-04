@@ -1,0 +1,67 @@
+[
+      {
+    "id": "Q1",
+    "topic": "DevOps Culture",
+    "question": "What is the main goal of DevOps?",
+    "options": [
+      "Separate development and operations teams",
+      "Increase collaboration between development and operations",
+      "Eliminate the need for testing",
+      "Replace developers with automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps focuses on improving collaboration and communication between development and operations teams."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which practice best supports a DevOps culture?",
+    "options": [
+      "Working in isolated teams",
+      "Blaming individuals for failures",
+      "Continuous feedback and improvement",
+      "Avoiding automation"
+    ],
+    "answerIndex": 2,
+    "explanation": "Continuous feedback encourages learning and improvement, which is a key DevOps principle."
+  },
+  {
+    "id": "Q3",
+    "topic": "Version Control Systems",
+    "question": "What is the primary purpose of version control systems?",
+    "options": [
+      "Deploy applications to production",
+      "Track and manage code changes",
+      "Monitor server performance",
+      "Automate testing only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Version control systems help track changes and manage code history."
+  },
+  {
+    "id": "Q4",
+    "topic": "Version Control Systems",
+    "question": "Which command is used to upload local commits to a remote repository in Git?",
+    "options": [
+      "git pull",
+      "git clone",
+      "git push",
+      "git fetch"
+    ],
+    "answerIndex": 2,
+    "explanation": "git push sends local commits to the remote repository."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What is a Git branch mainly used for?",
+    "options": [
+      "Deleting code",
+      "Parallel development",
+      "Backing up databases",
+      "Running tests"
+    ],
+    "answerIndex": 1,
+    "explanation": "Branches allow developers to work on features independently."
+  }
+]
