@@ -128,5 +128,137 @@
     ],
     "answerIndex": 0,
     "explanation": "Continuous Delivery may require manual approval before deploying to production."
+  },
+  ,
+  {
+    "id": "Q11",
+    "topic": "Continuous Deployment",
+    "question": "What happens in Continuous Deployment?",
+    "options": [
+      "Code is deployed manually",
+      "Every change is automatically deployed to production",
+      "Testing is skipped",
+      "Only monthly releases are allowed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys every successful change."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Deployment",
+    "question": "Which condition is required for Continuous Deployment?",
+    "options": [
+      "Reliable automated testing",
+      "No version control",
+      "Manual builds",
+      "Rare code changes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Strong automated testing is essential for Continuous Deployment."
+  },
+  {
+    "id": "Q13",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Managing infrastructure using manual processes",
+      "Defining infrastructure using code and configuration files",
+      "Avoiding automation",
+      "Only managing servers manually"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC uses code to manage and provision infrastructure."
+  },
+  {
+    "id": "Q14",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is commonly used for Infrastructure as Code?",
+    "options": [
+      "Terraform",
+      "Photoshop",
+      "Excel",
+      "Notepad"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a popular Infrastructure as Code tool."
+  },
+  {
+    "id": "Q15",
+    "topic": "Infrastructure as Code",
+    "question": "What is a benefit of using Infrastructure as Code?",
+    "options": [
+      "More manual work",
+      "Inconsistent environments",
+      "Repeatable and consistent infrastructure",
+      "Slower deployments"
+    ],
+    "answerIndex": 2,
+    "explanation": "IaC ensures consistent and repeatable infrastructure setups."
+  },
+  {
+    "id": "Q16",
+    "topic": "Plan with DevOps",
+    "question": "Why is planning important in DevOps?",
+    "options": [
+      "To avoid collaboration",
+      "To align development and operations goals",
+      "To remove automation",
+      "To delay releases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Planning helps align teams and streamline delivery."
+  },
+  {
+    "id": "Q17",
+    "topic": "Plan with DevOps",
+    "question": "Which practice helps plan work in DevOps?",
+    "options": [
+      "Ignoring feedback",
+      "Using backlogs and sprint planning",
+      "Avoiding documentation",
+      "Working without goals"
+    ],
+    "answerIndex": 1,
+    "explanation": "Backlogs and sprint planning support effective DevOps planning."
+  },
+  {
+    "id": "Q18",
+    "topic": "DevOps Culture",
+    "question": "What does shared responsibility mean in DevOps?",
+    "options": [
+      "Only operations are responsible",
+      "Only developers are responsible",
+      "Both teams share responsibility for success",
+      "No one is responsible"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps promotes shared responsibility across teams."
+  },
+  {
+    "id": "Q19",
+    "topic": "Version Control Systems",
+    "question": "What is a pull request used for?",
+    "options": [
+      "Deleting branches",
+      "Requesting code review and merging changes",
+      "Running applications",
+      "Installing software"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull requests are used to review and merge code changes."
+  },
+  {
+    "id": "Q20",
+    "topic": "Continuous Integration",
+    "question": "How often should developers integrate their code in CI?",
+    "options": [
+      "Once a year",
+      "Only at release time",
+      "Frequently",
+      "Never"
+    ],
+    "answerIndex": 2,
+    "explanation": "Frequent integration helps catch issues early."
   }
+
 ]
